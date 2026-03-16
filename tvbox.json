@@ -1,0 +1,37 @@
+{
+  "spider": "https://raw.githubusercontent.com/scorpion2u/tvbox/main/custom_spider.jar",
+
+  "sites":[
+    {
+      "key":"libvio",
+      "name":"立播影视",
+      "type":3,
+      "api":"csp_Libvio"
+    },
+    {
+      "key":"czzy",
+      "name":"厂长影视",
+      "type":3,
+      "api":"csp_Czzy"
+    },
+    {
+      "key":"btt",
+      "name":"比特影视",
+      "type":3,
+      "api":"csp_Bttwoo"
+    }
+  ],
+
+  "parses":[
+    {
+      "name":"HLS",
+      "type":0,
+      "url":"https://jx.hls.one/?url="
+    },
+    {
+      "name":"77",
+      "type":0,
+      "url":"https://jx.77flv.cc/?url="
+    }
+  ]
+}
