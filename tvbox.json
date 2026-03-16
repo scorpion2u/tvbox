@@ -1,24 +1,33 @@
 {
-  "spider":"https://raw.githubusercontent.com/lm317379829/TVBoxSpider/main/spider.jar",
+  "spider":"https://raw.githubusercontent.com/lushunming/AndroidCatVodSpider/main/jar/custom_spider.jar",
 
   "sites":[
     {
       "key":"libvio",
       "name":"立播影视",
       "type":3,
-      "api":"csp_Libvio"
+      "api":"csp_Libvio",
+      "searchable":1,
+      "quickSearch":1,
+      "changeable":1
     },
     {
       "key":"czzy",
       "name":"厂长影视",
       "type":3,
-      "api":"csp_Czzy"
+      "api":"csp_Czzy",
+      "searchable":1,
+      "quickSearch":1,
+      "changeable":1
     },
     {
       "key":"btt",
       "name":"比特影视",
       "type":3,
-      "api":"csp_Bttwoo"
+      "api":"csp_Bttwoo",
+      "searchable":1,
+      "quickSearch":1,
+      "changeable":1
     }
   ],
 
@@ -27,6 +36,11 @@
       "name":"解析1",
       "type":0,
       "url":"https://jx.hls.one/?url="
+    },
+    {
+      "name":"解析2",
+      "type":0,
+      "url":"https://jx.77flv.cc/?url="
     }
   ]
 }
