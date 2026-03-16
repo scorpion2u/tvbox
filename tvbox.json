@@ -1,37 +1,60 @@
 {
-  "spider": "https://raw.githubusercontent.com/scorpion2u/tvbox/main/custom_spider.jar",
+  "spider": "https://cdn.jsdelivr.net/gh/FongMi/CatVodSpider@main/jar/custom_spider.jar",
 
-  "sites":[
+  "sites": [
     {
-      "key":"libvio",
-      "name":"立播影视",
-      "type":3,
-      "api":"csp_Libvio"
+      "key": "csp_Libvio",
+      "name": "立播影视",
+      "type": 3,
+      "api": "csp_Libvio",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
     },
     {
-      "key":"czzy",
-      "name":"厂长影视",
-      "type":3,
-      "api":"csp_Czzy"
+      "key": "csp_Czzy",
+      "name": "厂长影视",
+      "type": 3,
+      "api": "csp_Czzy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
     },
     {
-      "key":"btt",
-      "name":"比特影视",
-      "type":3,
-      "api":"csp_Bttwoo"
+      "key": "csp_Jpys",
+      "name": "极品影视",
+      "type": 3,
+      "api": "csp_Jpys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_Bttwoo",
+      "name": "比特影视",
+      "type": 3,
+      "api": "csp_Bttwoo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
     }
   ],
 
-  "parses":[
+  "parses": [
     {
-      "name":"HLS",
-      "type":0,
-      "url":"https://jx.hls.one/?url="
+      "name": "线路1",
+      "type": 0,
+      "url": "https://jx.hls.one/?url="
     },
     {
-      "name":"77",
-      "type":0,
-      "url":"https://jx.77flv.cc/?url="
+      "name": "线路2",
+      "type": 0,
+      "url": "https://jx.77flv.cc/?url="
+    },
+    {
+      "name": "线路3",
+      "type": 0,
+      "url": "https://jx.m3u8.tv/jiexi/?url="
     }
   ]
 }
